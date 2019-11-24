@@ -6,12 +6,13 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
+
     <bean id="cat" class="com.leo.pojo.Cat"/>
     <bean id="dog" class="com.leo.pojo.Dog"/>
-    <bean id="people" class="com.leo.pojo.People">
+
+
+    <bean id="people" class="com.leo.pojo.People" autowire="byName">
         <property name="name" value="lh"></property>
-        <property name="cat" ref="cat"></property>
-        <property name="dog" ref="dog"></property>
     </bean>
 
 </beans>
