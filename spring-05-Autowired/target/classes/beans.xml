@@ -11,8 +11,8 @@
     <bean id="cat" class="com.leo.pojo.Cat"/>
     <bean id="dog" class="com.leo.pojo.Dog"/>
 
-    <!--byName:会自动在容器上下文中查找，和自己对象set方法后面的值对应的beanid-->
-    <!--byType:会自动在容器上下文中查找，和自己对象属性类型相同的bean -->
+<!--byName:会自动在容器上下文中查找，和自己对象set方法后面的值对应的beanid-->
+<!--byType:会自动在容器上下文中查找，和自己对象属性类型相同的bean -->
     <bean id="people" class="com.leo.pojo.People"/>
 
 </beans>

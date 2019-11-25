@@ -1,8 +1,13 @@
 package com.leo.pojo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class People {
+    @Autowired
     private Dog dog;
+    @Autowired
     private Cat cat;
+
     private String name;
 
     public Dog getDog() {
