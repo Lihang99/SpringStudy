@@ -8,7 +8,7 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--    指定要扫描的包，这个包下的注解就会生效-->
-    <context:component-scan base-package="com.leo.pojo"/>
+    <context:component-scan base-package="com.leo"/>
     <context:annotation-config/>
 
 </beans>
