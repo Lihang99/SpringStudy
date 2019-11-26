@@ -1,6 +1,6 @@
 package com.leo.sercive;
 
-public class UserServiceImpl implements Userserive {
+public class UserServiceImpl implements UserService {
 
     @Override
     public void add() {

@@ -1,6 +1,6 @@
 package com.leo.sercive;
 
-public interface Userserive {
+public interface UserService {
     void add();
 
     void delete();
