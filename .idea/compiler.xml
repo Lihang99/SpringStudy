@@ -10,6 +10,7 @@
         <module name="spring05Autowired" />
         <module name="spring06anno" />
         <module name="spring03ioc2" />
+        <module name="spring09aop" />
         <module name="spring08proxy" />
         <module name="spring04di" />
         <module name="spring01ioc1" />
