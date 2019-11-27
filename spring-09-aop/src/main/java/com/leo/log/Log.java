@@ -1,9 +1,11 @@
 package com.leo.log;
 
 import org.springframework.aop.MethodBeforeAdvice;
+import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 
+@Component
 public class Log implements MethodBeforeAdvice {
 
     //method:要执行的目标对象的方法

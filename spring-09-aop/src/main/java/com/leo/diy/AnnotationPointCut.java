@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 //方式三：使用注解方式实现AOP
 @Aspect//标注这个类是一个切面
-//@Component
+@Component
 public class AnnotationPointCut {
 
     @Before("execution(* com.leo.sercive.UserServiceImpl.*(..))")

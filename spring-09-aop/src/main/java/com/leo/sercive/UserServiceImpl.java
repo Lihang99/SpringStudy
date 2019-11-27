@@ -1,5 +1,9 @@
 package com.leo.sercive;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class UserServiceImpl implements UserService {
 
     @Override

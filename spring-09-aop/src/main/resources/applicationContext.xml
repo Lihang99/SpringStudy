@@ -11,15 +11,16 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
 
+    <context:component-scan base-package="com.leo"/>
     <context:annotation-config/>
     <!--    注册bean-->
-    <bean id="userService" class="com.leo.sercive.UserServiceImpl"/>
-    <bean id="log" class="com.leo.log.Log"/>
-    <bean id="afterLog" class="com.leo.log.AfterLog"/>
+<!--    <bean id="userService" class="com.leo.sercive.UserServiceImpl"/>-->
+<!--    <bean id="log" class="com.leo.log.Log"/>-->
+<!--    <bean id="afterLog" class="com.leo.log.AfterLog"/>-->
 
 
     <!--方式三-->
-    <bean id="AnnotationPointCut" class="com.leo.diy.AnnotationPointCut"/>
+<!--    <bean id="AnnotationPointCut" class="com.leo.diy.AnnotationPointCut"/>-->
     <!--开启注解支持 JDK(默认proxy-target-class="false" cglib(proxy-target-class="true)-->
     <aop:aspectj-autoproxy/>
 
